@@ -2,9 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
-As a manager I want to be able to add new employees to a roster.
-As a manager I want to view all employees on my roster.
-As a manager I want to be able to edit an employee's email.
+- As a manager I want to be able to add new employees to a roster.
+- As a manager I want to view all employees on my roster.
+- As a manager I want to be able to edit an employee's email.
 
 Using routing, services, and components with ngModel I was able to create an employee roster that adds and views employees.
 
