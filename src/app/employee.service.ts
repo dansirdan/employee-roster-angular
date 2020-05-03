@@ -1,12 +1,13 @@
 import { Injectable } from '@angular/core';
 import { Employee} from './employee';
+import { EMPLOYEES} from './mockEmps';
 
 @Injectable({
   providedIn: 'root'
 })
 
 export class EmployeeService {
-  employees: Employee[] = [];
+  employees: Employee[] = EMPLOYEES;
 
   addEmployee(employee: Employee) {
     console.log(employee)
