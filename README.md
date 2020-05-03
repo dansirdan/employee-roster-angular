@@ -8,7 +8,17 @@ As a manager I want to be able to edit an employee's email.
 
 Using routing, services, and components with ngModel I was able to create an employee roster that adds and views employees.
 
+## View All Employees
 ![Viewing all employees](./src/assets/images/viewEmployees.PNG)
+
+## Edit Employee Email
+![Viewing all employees](./src/assets/images/editEmail.PNG)
+
+## Validations on Inputs:
+![Viewing all employees](./src/assets/images/addEmployeeValidations.PNG)
+
+## Add New Employee success
+![Viewing all employees](./src/assets/images/addConfirm.PNG)
 
 ## Development server
 
