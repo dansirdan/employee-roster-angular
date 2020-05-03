@@ -1,0 +1,33 @@
+<!-- <button (click)="decrement()">-</button>
+<span>{{counter}}</span>
+<button (click)="increment()">+</button> -->
+<div class="container">
+  <h5 class="center-align">New Employee Form</h5>
+  <hr/>
+  <p class="center-align">A first name, last name, and email address are required.</p>
+  <br>
+<div class="row">
+  <div class="col s12">
+    <div class="row">
+      <div class="input-field col s6">
+        <input [(ngModel)]="first"id="first_name" type="text" class="validate">
+        <label for="first_name">First Name</label>
+      </div>
+      <div class="input-field col s6">
+        <input [(ngModel)]="last" id="last_name" type="text" class="validate">
+        <label for="last_name">Last Name</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <input [(ngModel)]="email" id="email" type="email" class="validate">
+        <label for="email">Email</label>
+        <span class="helper-text" data-error="Please use a valid email address." data-success="Looks good!"></span>
+      </div>
+    </div>
+    <button class="btn waves-effect waves-light" (click)="newEmployee()" href="/view">Submit
+      <i class="material-icons right">send</i>
+    </button>
+  </div>
+</div>
+</div>

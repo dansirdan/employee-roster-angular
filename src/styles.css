@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+/* 
+html, body { height: 100%;}
+body { display: flex; flex-direction: column; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+html {height: 100vh;}
+body, app-root {height: 100%;}
+app-root {display: flex; flex-direction: column;}
+.box{flex: 1 0 auto;}
+.container{margin-top: 5%; height: 50%;}
+app-footer {flex-shrink: 0;}
