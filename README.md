@@ -8,6 +8,8 @@ As a manager I want to be able to edit an employee's email.
 
 Using routing, services, and components with ngModel I was able to create an employee roster that adds and views employees.
 
+![Viewing all employees](./src/assets/images/viewEmployees.PNG)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
